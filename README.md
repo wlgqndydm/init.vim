@@ -3,7 +3,7 @@ a useful neovim config
 一个好用的neovim 配置文件，拿来改改，加点料。
 安装方法：
 1.克隆此项目
-git clone --depth 1 https://github.com/Nalleyer/init.vim.git ~/.config/nvim
+git clone --depth 1 https://github.com/wlgqndydm/init.vim.git ~/.config/nvim
 
 2.安装packer：
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
