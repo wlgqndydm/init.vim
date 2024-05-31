@@ -12,8 +12,13 @@ git clone --depth 1 https://github.com/wlgqndydm/init.vim.git ~/.config/nvim
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
-3.安装支持库，如使用python，则执行：
+3.安装支持库，必须安装nodejs，且必须安装，先执行：
+ubuntu:apt install nodejs
 
+然后执行：
+npm install -g pyright
+
+如使用python，则执行：(可能无法发挥作用)
 pip install pynvim 
 
     3.1个别发行版可能需使用包管理器安装：
